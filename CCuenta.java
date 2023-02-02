@@ -1,7 +1,11 @@
 package cuentas;
 
+ /**Declaramos la clase cuenta
+ * @author amgot
+ *
+ */
 class CCuenta {
-
+	public static void main(String[]args) {}
 
     private String nombre;
     private String cuenta;
@@ -46,5 +50,5 @@ class CCuenta {
 
 	private void setSaldo(double saldo) {
 		this.saldo = saldo;
-	}
-}
+	
+}}
